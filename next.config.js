@@ -4,7 +4,7 @@ const nextComposePlugins = require('next-compose-plugins');
 const headers = require('./config/headers');
 const includePolyfills = require('./config/includePolyfills');
 const plugins = require('./config/plugins');
-const { i18n } = require('./next-i18next.config.js');
+/*const { i18n } = require('./next-i18next.config.js');*/
 
 /**
  * https://github.com/cyrilwanner/next-compose-plugins/issues/59
