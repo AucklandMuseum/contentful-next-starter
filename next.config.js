@@ -20,7 +20,6 @@ module.exports = withPlugins(plugins, {
 		defaultLocale: 'en-US',
 		locales: ['en-US', 'de-DE'],
 		localeDetection: false,
-		localePath: path.resolve('./public/locales'),
 	  },
   /**
    * add the environment variables you would like exposed to the client here
